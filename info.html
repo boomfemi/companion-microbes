@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<title>반려균</title>
+<style>
+	body{
+    background-image: url("img/background.png");
+	}
+	hr{
+		height:2px;
+		color:black;
+		border-width:0;
+		background-color:black;
+	}
+  p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    word-break: keep-all;
+  }
+	a{
+		text-decoration-line: none;
+	}
+  a:link, a:visited {
+  color: black;
+}
+
+a:link:active, a:visited:active {
+  color: black;
+}
+a:hover{
+  font-style: italic;
+}
+	ul{
+		width:100%;
+		height: 20px;
+		list-style: none;
+		display: flex;
+    justify-content: space-between;
+    padding: 0 2.5vw;
+    margin-top: 8px;
+    box-sizing: border-box;
+    word-break: keep-all;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    font-family: 'Noto Sans KR', sans-serif;
+	}
+	ul li{
+		float: left;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  	}
+ 
+  	.box{
+    padding-top: 10px;
+    overflow-y: scroll;
+    cursor: text;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+  }
+  .box::-webkit-scrollbar{
+    display:none;
+  }
+  .box_left{
+    border-right: 0px solid;
+  }
+  .box_right{
+    border-left: 0px solid;
+
+  }
+  .logo{
+  	position: fixed;
+    height: 154px;
+  	width: 100%;
+  	left: 0;
+    top: 0;
+    border-top: 0;
+    background-color: white;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+  }
+  .menu{
+    color: #000;
+  }
+  .main-text{
+    font-size: 25px;
+    padding-top: 200px;
+    text-align: center;
+    line-height: 33px;
+  }
+  .text-bold{
+    font-family: 'Noto Sans KR', sans-serif, bold;
+    line-height: 1px;
+    text-indent: 30px;
+  }
+
+</style>
+</head>
+<body>
+<div class="logo">
+<a href="main.html"><img src="img/img_main_logo.png" width="250px"></a>
+<hr>
+<ul>
+<li><a class="menu" href="info.html">소개</a></li>
+<li><a class="menu" href="manual.html">방법</a></li>
+<li><a class="menu" href="index.html">인터뷰</a></li>
+<li><a class="menu" href="compost.html">퇴비함 자랑</a></li>
+</ul><hr>			
+</div>
+<div><p class="main-text">반려균 프로젝트는 비전화 방식의 음식물 퇴비함을 <br>쓰면서 생기는 고민과 이야기를 기록하는 프로젝트입니다.<br> #반려균, #퇴비함_일기</p></div>
+
+<div id="grid">
+<div class="box box_left">
+  <p class="text-bold">프로젝트 소개</p>
+  <p>반려균 프로젝트는 집에서 쓸 수 있는 퇴비함 모델을 소개하고, 음식물을 흙으로 돌려보내는 일상을 위해 필요한 일들을 기획합니다. 비전화공방의 활동가 꼬리가 만든 <비로소 흙> 퇴비함을 직접 써보면서 반려균이 하는 일들을 경험해봅니다.<br><br> </p><br>
+  <p class="text-bold">반려균 소개</p><p>
+반려균이란 분해자 역할을 하는 미생물을 말합니다. 흙 속에는 우리의 눈에 보이지 않는 다양한 미생물들이 살고 있습니다. 이 미생물들은 음식물 쓰레기를 분해하여 흙으로 돌려보내 줍니다. </p>
+<p>우리는 반려균과 퇴비화 과정을 함께 합니다. 퇴비화란 음식물이 빠른 속도로 분해되는 데 이상적인 조건을 만들어 주는 것입니다. 음식물 쓰레기, 습기, 그리고 공기가 꼭 맞는 조합으로 배합되어 있어야 합니다. 과일이나 야채 같은 “녹색 유기물”은 습기를 제공하고, 빵과 곡물 같은 “갈색 유기물”은 그 습기를 빨아들이며 분산시킵니다. 그리고 하루에 한 번씩 섞어서 공기가 들어갈 수 있도록 합니다. </p>
+
+
+</div>
+<div class="box box_right">
+  <img src="img/poster-img-1.png" height="600px">
+
+
+
+
+
+</div>
+</body>
+</html>
+
